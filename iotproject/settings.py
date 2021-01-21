@@ -76,11 +76,16 @@ WSGI_APPLICATION = 'iotproject.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+    "default": {
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "NAME": "d4jgmb9fcch951",
+        "USER": "ssgairrskqwyyu",
+        "PASSWORD": "a1ef181ca46f1c53d3e1708a3338e3d54e7c1d3e3f5db5983c5bc0a42becb8c0",
+        "HOST": "ec2-75-101-212-64.compute-1.amazonaws.com",
+        "PORT": "5432",
     }
 }
+
 
 
 # Password validation
